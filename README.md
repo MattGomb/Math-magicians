@@ -1,3 +1,23 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Math magicians
+
+> In this project I create a calculator app, using react for the first time.
+
+
+## Built With
+
+- HTML, CSS, JavaScript
+- React, babel, jest
+- VSCode
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +88,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Authors
+
+👤 **Mátyás Gombos**
+
+- GitHub: [@MattGomb](https://github.com/MattGomb)
+- Twitter: [@MtysGombos1](https://twitter.com/MtysGombos1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/MattGomb/math-magicians/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+
+
