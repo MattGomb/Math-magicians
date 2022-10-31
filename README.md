@@ -96,7 +96,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - GitHub: [@MattGomb](https://github.com/MattGomb)
 - Twitter: [@MtysGombos1](https://twitter.com/MtysGombos1)
-- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/))
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/)
 
 ## 🤝 Contributing
 
