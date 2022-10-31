@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math magicians
 
 > In this project I create a calculator app, using react for the first time.
 
@@ -94,9 +94,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 👤 **Mátyás Gombos**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MattGomb](https://github.com/MattGomb)
+- Twitter: [@MtysGombos1](https://twitter.com/MtysGombos1)
+- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/))
 
 ## 🤝 Contributing
 
