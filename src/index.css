@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ code {
   justify-content: center;
   width: 20%;
   flex-wrap: wrap;
-  background-color: rgb(202, 202, 202);;
+  background-color: rgb(202, 202, 202);
 }
 
 p {
