@@ -23,12 +23,12 @@ class Calculator extends React.Component {
       total, operation, next, error,
     } = this.state;
     return (
-      <section className="calculator-container">
+      <div className="calculator-container">
         <div className="result">
-          { total }
-          { operation }
-          { next }
-          { error }
+          {total}
+          {operation}
+          {next}
+          {error}
         </div>
         <button type="button" onClick={this.click}>AC</button>
         <button type="button" onClick={this.click}>+/-</button>
@@ -49,7 +49,7 @@ class Calculator extends React.Component {
         <button type="button" className="zero" onClick={this.click}>0</button>
         <button type="button" onClick={this.click}>.</button>
         <button type="button" className="last-col" onClick={this.click}>=</button>
-      </section>
+      </div>
     );
   }
 }
