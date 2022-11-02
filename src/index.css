@@ -47,7 +47,7 @@ code {
   background-color: rgb(202, 202, 202);
 }
 
-p {
+.result {
   width: 100%;
   text-align: end;
   padding: 1rem 0.5rem;
