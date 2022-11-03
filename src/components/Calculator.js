@@ -15,7 +15,7 @@ const Calculator = () => {
     if (state.total !== null && state.total !== undefined) {
       document.title = `your result is ${state.total}`;
     }
-  });
+  }, [state.total]);
 
   return (
     <div className="container">
