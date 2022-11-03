@@ -1,57 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      operation: null,
-      next: null,
-      error: null,
-    };
-    this.click = this.click.bind(this);
-  }
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: 0, operation: null, next: null, error: null,
+  });
 
-  click = (e) => {
-    const result = calculate(this.state, e.target.textContent);
-    this.setState(result);
-  }
+  const click = (e) => {
+    const result = calculate(state, e.target.textContent);
+    setState(result);
+  };
 
-  render() {
-    const {
-      total, operation, next, error,
-    } = this.state;
-    return (
-      <div className="calculator-container">
-        <div className="result">
-          {total}
-          {operation}
-          {next}
-          {error}
-        </div>
-        <button type="button" onClick={this.click}>AC</button>
-        <button type="button" onClick={this.click}>+/-</button>
-        <button type="button" onClick={this.click}>%</button>
-        <button type="button" className="last-col" onClick={this.click}>÷</button>
-        <button type="button" onClick={this.click}>7</button>
-        <button type="button" onClick={this.click}>8</button>
-        <button type="button" onClick={this.click}>9</button>
-        <button type="button" className="last-col" onClick={this.click}>*</button>
-        <button type="button" onClick={this.click}>4</button>
-        <button type="button" onClick={this.click}>5</button>
-        <button type="button" onClick={this.click}>6</button>
-        <button type="button" className="last-col" onClick={this.click}>-</button>
-        <button type="button" onClick={this.click}>1</button>
-        <button type="button" onClick={this.click}>2</button>
-        <button type="button" onClick={this.click}>3</button>
-        <button type="button" className="last-col" onClick={this.click}>+</button>
-        <button type="button" className="zero" onClick={this.click}>0</button>
-        <button type="button" onClick={this.click}>.</button>
-        <button type="button" className="last-col" onClick={this.click}>=</button>
+  return (
+    <div className="calculator-container">
+      <div className="result">
+        {state.total}
+        {state.operation}
+        {state.next}
+        {state.error}
       </div>
-    );
-  }
-}
+      <button type="button" onClick={click}>AC</button>
+      <button type="button" onClick={click}>+/-</button>
+      <button type="button" onClick={click}>%</button>
+      <button type="button" className="last-col" onClick={click}>÷</button>
+      <button type="button" onClick={click}>7</button>
+      <button type="button" onClick={click}>8</button>
+      <button type="button" onClick={click}>9</button>
+      <button type="button" className="last-col" onClick={click}>*</button>
+      <button type="button" onClick={click}>4</button>
+      <button type="button" onClick={click}>5</button>
+      <button type="button" onClick={click}>6</button>
+      <button type="button" className="last-col" onClick={click}>-</button>
+      <button type="button" onClick={click}>1</button>
+      <button type="button" onClick={click}>2</button>
+      <button type="button" onClick={click}>3</button>
+      <button type="button" className="last-col" onClick={click}>+</button>
+      <button type="button" className="zero" onClick={click}>0</button>
+      <button type="button" onClick={click}>.</button>
+      <button type="button" className="last-col" onClick={click}>=</button>
+    </div>
+  );
+};
 
 export default Calculator;
