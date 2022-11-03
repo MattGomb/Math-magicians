@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -10,6 +10,12 @@ const Calculator = () => {
     const result = calculate(state, e.target.textContent);
     setState(result);
   };
+
+  useEffect(() => {
+    if (state.total !== null && state.total !== undefined) {
+      document.title = `your result is ${state.total}`;
+    }
+  });
 
   return (
     <div className="calculator-container">
