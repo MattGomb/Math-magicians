@@ -35,7 +35,7 @@ body {
 
 .nav-item {
   margin: 0;
-  padding: 1rem
+  padding: 1rem;
 }
 
 .navbar {
@@ -47,6 +47,12 @@ body {
 
 .home-container {
   margin: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
 }
 
 .home-container .title {
@@ -77,12 +83,6 @@ body {
   box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
   padding: 0.5rem;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 1rem;
 }
 
 .result {
@@ -178,7 +178,6 @@ button:active {
     margin: 4rem 1rem;
     display: flex;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
