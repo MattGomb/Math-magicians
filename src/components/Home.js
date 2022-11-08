@@ -2,8 +2,11 @@ import React from 'react';
 
 function Home() {
   return (
-    <section className="container">
+    <section className="home-container">
       <h2 className="title">Welcome to our page!</h2>
+      <h3>
+        Mathematics
+      </h3>
       <p className="passage">
         Mathematics is the abstract science of number, quantity, and space.
         Mathematics may be studied in its own right (pure mathematics),
@@ -22,6 +25,9 @@ function Home() {
         but which had no practical application before its use in the RSA cryptosystem
         (for the security of computer networks).
       </p>
+      <h3>
+        The Calculator
+      </h3>
       <p className="passage">
         Modern electronic calculators vary from cheap, give-away, credit-card-sized models
         to sturdy desktop models with built-in printers.

@@ -18,9 +18,9 @@ const Calculator = () => {
   }, [state.total]);
 
   return (
-    <div className="container">
+    <section className="calculator-container">
       <div className="title">Just MATH it &#10004;</div>
-      <div className="calculator-container">
+      <div className="calculator-app-container">
         <div className="result">
           {state.total}
           {state.operation}
@@ -47,7 +47,7 @@ const Calculator = () => {
         <button type="button" onClick={click}>.</button>
         <button type="button" className="last-col" onClick={click}>=</button>
       </div>
-    </div>
+    </section>
   );
 };
 
