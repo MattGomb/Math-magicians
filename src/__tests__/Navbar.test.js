@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import React from 'react';
-import Navbar from '../components/Navbar';
 import { BrowserRouter } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 describe('the calculator snapshot and react testing library', () => {
   it('renders correctly', () => {
