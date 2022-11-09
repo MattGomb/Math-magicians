@@ -1,6 +1,6 @@
+import renderer from 'react-test-renderer';
 import Home from '../components/Home';
 import React from 'react';
-import renderer from 'react-test-renderer';
 
 describe('the calculator snapshot and react testing library', () => {
   it('renders correctly', () => {
@@ -8,4 +8,3 @@ describe('the calculator snapshot and react testing library', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-
