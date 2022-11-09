@@ -8,13 +8,13 @@ describe('the operation functions', () => {
     expect(operate(1, 2, '-')).toBe('-1');
   });
   it('multiplication', () => {
-    expect(operate(1, 2, 'x')).toBe('2');
+    expect(operate(1, 2, '*')).toBe('2');
   });
   it('division', () => {
     expect(operate(8, 16, '÷')).toBe('0.5');
   });
   it('division by zero', () => {
-    expect(operate(8, 0, '÷')).toBe('undefined');
+    expect(operate(8, 0, '÷')).toBe("Can't divide by 0.");
   });
   it('modulus', () => {
     expect(operate(8, 16, '%')).toBe('8');

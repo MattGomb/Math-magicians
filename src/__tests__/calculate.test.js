@@ -5,7 +5,7 @@ describe('calculate function should', () => {
   let result = {};
   test('return null when AC is clicked', () => {
     result = calculate(initalState, 'AC');
-    expect(result).toEqual({ total: null, next: null, operation: null });
+    expect(result).toEqual({ total: 0, next: null, operation: null });
   });
 
   test('update next when a number key is pressed and there is no operation', () => {
