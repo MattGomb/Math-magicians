@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate.js'
+import calculate from '../logic/calculate.';
 
 describe('calculate function should', () => {
   const initalState = { total: 4, next: 2, operation: '+' };

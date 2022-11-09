@@ -20,4 +20,3 @@ describe('the operation functions', () => {
     expect(operate(8, 16, '%')).toBe('8');
   });
 });
-  
