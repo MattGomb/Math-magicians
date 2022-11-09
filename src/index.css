@@ -7,6 +7,13 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -15,23 +22,67 @@ body {
   justify-content: center;
 }
 
-.container {
-  text-align: center;
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 }
 
-.calculator-container {
-  width: 90%;
-  flex-wrap: wrap;
-  background-color: rgb(202, 202, 202);
-  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+.navbar-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 1rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.home-container {
+  margin: 1rem;
 }
 
 .title {
   font-size: 2rem;
   font-weight: 700;
   padding: 1rem;
+}
+
+.home-container .title {
+  padding: 1rem 0;
+}
+
+.home-container h3 {
+  padding-top: 1rem;
+}
+
+.home-container p {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.calculator-container {
+  margin: 0 1rem;
+}
+
+.calculator-container .title {
+  display: none;
+}
+
+.calculator-app-container {
+  width: 90%;
+  flex-wrap: wrap;
+  background-color: rgb(202, 202, 202);
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }
 
 .result {
@@ -75,26 +126,72 @@ button:active {
   width: 50%;
 }
 
+.quote {
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
 @media screen and (min-width: 321px) {
-  .calculator-container {
+  .calculator-app-container {
     width: 70%;
+  }
+
+  .navbar-title {
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .home-container p {
+    padding: 1rem 5rem 1rem 0;
+    text-align: justify;
+  }
+
+  .home-container {
+    margin: 2rem 1rem;
+  }
+
+  .calculator-container .title {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .calculator-app-container {
+    width: 40%;
+  }
+
+  .navbar-container {
+    flex-direction: row;
+  }
+
   .calculator-container {
-    width: 50%;
+    margin: 4rem 1rem;
+    display: flex;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .calculator-container {
-    width: 40%;
+  .calculator-app-container {
+    width: 30%;
+  }
+
+  .calculator-container .title {
+    margin-right: 10rem;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .calculator-container {
-    width: 40%;
+  .calculator-app-container {
+    width: 30%;
   }
 }
