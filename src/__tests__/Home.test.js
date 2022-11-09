@@ -1,1 +1,1 @@
-import Home from '../components/Home';
+/* import Home from '../components/Home'; */

@@ -1,1 +1,1 @@
-import Quote from '../components/Quote';
+/* import Quote from '../components/Quote'; */
