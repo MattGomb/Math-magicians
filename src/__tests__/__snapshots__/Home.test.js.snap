@@ -6,6 +6,7 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
 >
   <h2
     className="title"
+    data-testid="homeTitle"
   >
     Welcome to our page!
   </h2>

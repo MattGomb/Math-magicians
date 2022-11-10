@@ -6,14 +6,17 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
 >
   <h1
     className="navbar-title"
+    data-testid="title"
   >
     Math Magicians
   </h1>
   <ul
     className="navbar"
+    data-testid="nav-links"
   >
     <li
       className="nav-item"
+      data-testid=""
     >
       <a
         href="/home"
