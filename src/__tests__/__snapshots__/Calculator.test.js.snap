@@ -14,22 +14,26 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
   >
     <div
       className="result"
+      data-testid="result"
     >
       0
     </div>
     <button
+      data-testid="AC"
       onClick={[Function]}
       type="button"
     >
       AC
     </button>
     <button
+      data-testid="+/-"
       onClick={[Function]}
       type="button"
     >
       +/-
     </button>
     <button
+      data-testid="%"
       onClick={[Function]}
       type="button"
     >
@@ -37,24 +41,28 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
     </button>
     <button
       className="last-col"
+      data-testid="%"
       onClick={[Function]}
       type="button"
     >
       ÷
     </button>
     <button
+      data-testid="7"
       onClick={[Function]}
       type="button"
     >
       7
     </button>
     <button
+      data-testid="8"
       onClick={[Function]}
       type="button"
     >
       8
     </button>
     <button
+      data-testid="9"
       onClick={[Function]}
       type="button"
     >
@@ -62,24 +70,28 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
     </button>
     <button
       className="last-col"
+      data-testid="*"
       onClick={[Function]}
       type="button"
     >
       *
     </button>
     <button
+      data-testid="4"
       onClick={[Function]}
       type="button"
     >
       4
     </button>
     <button
+      data-testid="5"
       onClick={[Function]}
       type="button"
     >
       5
     </button>
     <button
+      data-testid="6"
       onClick={[Function]}
       type="button"
     >
@@ -87,24 +99,28 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
     </button>
     <button
       className="last-col"
+      data-testid="-"
       onClick={[Function]}
       type="button"
     >
       -
     </button>
     <button
+      data-testid="1"
       onClick={[Function]}
       type="button"
     >
       1
     </button>
     <button
+      data-testid="2"
       onClick={[Function]}
       type="button"
     >
       2
     </button>
     <button
+      data-testid="3"
       onClick={[Function]}
       type="button"
     >
@@ -112,6 +128,7 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
     </button>
     <button
       className="last-col"
+      data-testid="+"
       onClick={[Function]}
       type="button"
     >
@@ -119,12 +136,14 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
     </button>
     <button
       className="zero"
+      data-testid="0"
       onClick={[Function]}
       type="button"
     >
       0
     </button>
     <button
+      data-testid="."
       onClick={[Function]}
       type="button"
     >
@@ -132,6 +151,7 @@ exports[`the calculator snapshot and react testing library renders correctly 1`]
     </button>
     <button
       className="last-col"
+      data-testid="="
       onClick={[Function]}
       type="button"
     >
