@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://magnificent-queijadas-f3ba7a.netlify.app/)
+[Live Demo Link](https://math-magicians-mattgomb.netlify.app)
 
 
 ## Getting Started
