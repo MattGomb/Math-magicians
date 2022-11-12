@@ -52,6 +52,10 @@ body {
   color: rgb(156, 0, 0);
 }
 
+.nav-item:nth-child(2), .nav-item:nth-child(3) {
+  border-left: 1px solid grey;
+}
+
 .navbar {
   list-style: none;
   display: flex;
@@ -80,6 +84,14 @@ body {
 .home-container p {
   padding: 1rem;
   text-align: justify;
+}
+
+.passage-container {
+  margin: 1rem 4rem 3rem 1rem;
+  padding-left: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 12px 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 .calculator-container {
@@ -163,7 +175,7 @@ button:active {
   }
 
   .home-container p {
-    padding: 1rem 5rem 1rem 0;
+    padding: 1rem 2rem 2rem 1rem;
     text-align: justify;
   }
 
