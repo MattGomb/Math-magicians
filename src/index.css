@@ -52,7 +52,8 @@ body {
   color: rgb(156, 0, 0);
 }
 
-.nav-item:nth-child(2), .nav-item:nth-child(3) {
+.nav-item:nth-child(2),
+.nav-item:nth-child(3) {
   border-left: 1px solid grey;
 }
 
